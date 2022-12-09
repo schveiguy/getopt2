@@ -51,15 +51,14 @@ And the equivalent with getopt2:
 
 ```d
 import schlib.getopt2;
-struct Opts {
-    int length = 24;
-    @caseSensitive
-    string data = "file.dat";
-    bool verbose;
-    enum Color { no, yes }
 
-    @description("Information about this color")
-    Color color;
+enum Color { no, yes }
+
+struct Opts {
+    string data = "file.dat";
+    int length = 24;
+    bool verbose;
+    @description("Information about this color") Color color;
 }
 
 Opts opts;
