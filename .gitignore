@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/getopt2
+getopt2.so
+getopt2.dylib
+getopt2.dll
+getopt2.a
+getopt2.lib
+getopt2-test-*
+*.exe
+*.o
+*.obj
+*.lst
